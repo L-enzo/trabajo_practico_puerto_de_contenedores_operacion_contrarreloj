@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1791318192 source:c:\users\aec\documents\github\trabajo_practico_puerto_de_contenedores_operacion_contrarreloj\puerto_de_contenedores_operacion_contrarreloj\main.c
+	"archivos.h"
+
+1791322417 c:\users\aec\documents\github\trabajo_practico_puerto_de_contenedores_operacion_contrarreloj\puerto_de_contenedores_operacion_contrarreloj\archivos.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1791320960 source:c:\users\aec\documents\github\trabajo_practico_puerto_de_contenedores_operacion_contrarreloj\puerto_de_contenedores_operacion_contrarreloj\archivos.c
+	"archivos.h"
+
