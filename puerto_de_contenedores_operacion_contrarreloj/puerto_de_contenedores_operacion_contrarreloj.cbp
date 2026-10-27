@@ -35,6 +35,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="archivos.h" />
+		<Unit filename="coladinamica.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="coladinamica.h" />
 		<Unit filename="instrucciones.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -43,6 +47,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="jornada.h" />
+		<Unit filename="lista_enlazada_simple.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lista_enlazada_simple.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

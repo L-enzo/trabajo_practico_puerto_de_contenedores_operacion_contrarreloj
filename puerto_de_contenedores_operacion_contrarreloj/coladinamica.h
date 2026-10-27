@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define TODO_OK 0
+#define TODO_OK 1
 #define ERROR_MEM -1
 #define ERROR_COLA_VACIA -2
 
