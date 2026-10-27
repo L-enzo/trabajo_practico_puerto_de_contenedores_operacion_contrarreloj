@@ -35,6 +35,14 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="archivos.h" />
+		<Unit filename="instrucciones.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="instrucciones.h" />
+		<Unit filename="jornada.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="jornada.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

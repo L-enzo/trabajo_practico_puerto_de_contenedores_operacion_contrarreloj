@@ -2,7 +2,7 @@
 
 int generar_archivo_puerto(const char* nombrearchivo)
 {
-    puerto p;
+    tPuerto p;
     int cant_buques, cant_contenedores, num_contenedor = 1, cant_camiones,
     total_contenedores = 0, pos, i, f;
     int * usados;
@@ -66,7 +66,14 @@ int generar_archivo_puerto(const char* nombrearchivo)
     {
         cant_camiones = total_contenedores;
     }
+
     usados = malloc(total_contenedores * sizeof(int));
+    if(usados == NULL)
+    {
+        fclose(pf);
+        return ERROR_RESERV_MEM;
+    }
+
     for( f = 0 ; f < total_contenedores ; f++)
     {
         *(usados + f) = 0;
@@ -87,5 +94,5 @@ int generar_archivo_puerto(const char* nombrearchivo)
 
     free(usados);
     fclose(pf);
-    return TODO_OK;
+    return TODO_OK_ARCH;
 }

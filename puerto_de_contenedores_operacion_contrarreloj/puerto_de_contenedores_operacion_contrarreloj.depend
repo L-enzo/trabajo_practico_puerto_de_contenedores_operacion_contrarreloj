@@ -1,12 +1,45 @@
 # depslib dependency file v1.0
-1791318192 source:c:\users\aec\documents\github\trabajo_practico_puerto_de_contenedores_operacion_contrarreloj\puerto_de_contenedores_operacion_contrarreloj\main.c
+1791954980 source:c:\users\aec\documents\github\trabajo_practico_puerto_de_contenedores_operacion_contrarreloj\puerto_de_contenedores_operacion_contrarreloj\main.c
 	"archivos.h"
+	"instrucciones.h"
+	"jornada.h"
 
-1791322417 c:\users\aec\documents\github\trabajo_practico_puerto_de_contenedores_operacion_contrarreloj\puerto_de_contenedores_operacion_contrarreloj\archivos.h
+1793134817 c:\users\aec\documents\github\trabajo_practico_puerto_de_contenedores_operacion_contrarreloj\puerto_de_contenedores_operacion_contrarreloj\archivos.h
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
+	<string.h>
 
-1791320960 source:c:\users\aec\documents\github\trabajo_practico_puerto_de_contenedores_operacion_contrarreloj\puerto_de_contenedores_operacion_contrarreloj\archivos.c
+1793134817 source:c:\users\aec\documents\github\trabajo_practico_puerto_de_contenedores_operacion_contrarreloj\puerto_de_contenedores_operacion_contrarreloj\archivos.c
 	"archivos.h"
+
+1791954389 source:c:\users\aec\documents\github\trabajo_practico_puerto_de_contenedores_operacion_contrarreloj\puerto_de_contenedores_operacion_contrarreloj\instrucciones.c
+	"instrucciones.h"
+
+1791954278 c:\users\aec\documents\github\trabajo_practico_puerto_de_contenedores_operacion_contrarreloj\puerto_de_contenedores_operacion_contrarreloj\instrucciones.h
+
+1793140082 source:c:\users\aec\documents\github\trabajo_practico_puerto_de_contenedores_operacion_contrarreloj\puerto_de_contenedores_operacion_contrarreloj\jornada.c
+	"jornada.h"
+	"instrucciones.h"
+	"archivos.h"
+
+1793140082 c:\users\aec\documents\github\trabajo_practico_puerto_de_contenedores_operacion_contrarreloj\puerto_de_contenedores_operacion_contrarreloj\jornada.h
+	"coladinamica.h"
+	"lista_enlazada_simple.h"
+
+1793140137 source:c:\users\aec\documents\github\trabajo_practico_puerto_de_contenedores_operacion_contrarreloj\puerto_de_contenedores_operacion_contrarreloj\lista_enlazada_simple.c
+	"lista_enlazada_simple.h"
+
+1793140137 c:\users\aec\documents\github\trabajo_practico_puerto_de_contenedores_operacion_contrarreloj\puerto_de_contenedores_operacion_contrarreloj\lista_enlazada_simple.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1790628601 source:c:\users\aec\documents\github\trabajo_practico_puerto_de_contenedores_operacion_contrarreloj\puerto_de_contenedores_operacion_contrarreloj\coladinamica.c
+	"coladinamica.h"
+
+1790625947 c:\users\aec\documents\github\trabajo_practico_puerto_de_contenedores_operacion_contrarreloj\puerto_de_contenedores_operacion_contrarreloj\coladinamica.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
 

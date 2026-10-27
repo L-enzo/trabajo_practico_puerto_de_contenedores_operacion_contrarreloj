@@ -4,9 +4,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <string.h>
 
-#define TODO_OK 1
+#define TODO_OK_ARCH 1
 #define ERROR_APERT_ARCH -1
+#define ERROR_RESERV_MEM -2
 
 typedef struct {
                 int duracion_jornada_minutos,
@@ -19,7 +21,7 @@ typedef struct {
                     tiempo_desc_contenedor,
                     tiempo_reub_contenedor,
                     tiempo_carg_camion;
-}puerto;
+}tPuerto;
 
 int generar_archivo_puerto(const char *nombrearchivo);
 #endif // ARCHIVOS_H_INCLUDED
